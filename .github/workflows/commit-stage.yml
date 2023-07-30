@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: meisall/config-service
+  IMAGE_NAME: meisallcom/config-service
   VERSION: latest
 
 jobs:
