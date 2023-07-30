@@ -15,15 +15,15 @@ spring:
       server:
         git:
           uri: https://github.com/meisallcom/config-repo
-          username: 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
-          password:
+#          username:
+#          password:
           default-label: master
           timeout: 5
           clone-on-start: true
           force-pull: true
-          skipSslValidation: true
-          #proxy: http://127.0.0.1:51837
-          proxy:
-            http:
-              host: 127.0.0.1
-              port: '51837'
+#          skipSslValidation: true
+#          #proxy: http://127.0.0.1:51837
+#          proxy:
+#            http:
+#              host: 127.0.0.1
+#              port: '51837'
